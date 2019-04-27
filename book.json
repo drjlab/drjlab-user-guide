@@ -1,0 +1,47 @@
+{
+  "title": "NextPilot User Guide",
+  "description": "",
+  "language": "zh-hans",
+  "plugins": [
+    "youtube",
+    "language-picker",
+    "-anchors",
+    "back-to-top-button",
+    "page-toc-button",
+    "prism",
+    "richquotes",
+    "search-pro",
+    "toolbar",
+    "mathjax@git+https://github.com/Dronecode/plugin-mathjax.git#update_cdn",
+    "versions-select@git+https://github.com/Dronecode/gitbook-plugin-versions-select.git",
+    "-fontsettings",
+    "-highlight",
+    "-livereload",
+    "-lunr",
+    "-search",
+    "-sharing"
+  ],
+  "pluginsConfig": {
+    "toolbar": {
+      "buttons": [
+        {
+          "label": "Bug tracker",
+          "icon": "fa fa-bug",
+          "position": "left",
+          "url": "https://github.com/latercomer/nextpilot-hardware/issues/new?title=Doc+Bug:+{{title}}&body=DESCRIBE+PROBLEM+WITH+DOCS+HERE%0A%0ABug+Page:+[{{title}}]({{url}})"
+        },
+        {
+          "label": "Edit page on github",
+          "icon": "fa fa-pencil-square-o",
+          "position": "left",
+          "url": ""
+        },
+        {
+          "label": "GitHub",
+          "icon": "fa fa-github",
+          "url": ""
+        }
+      ]
+    }
+  }
+}
