@@ -1,9 +1,10 @@
 # Summary
 
-* [序言](README.md)
+## ==== 关于我们 ====
+* [团队简介](README.md)
 
 
-## ==== 产品模块 ====
+## ==== 产品中心 ====
 * [飞行平台](product/aircraft/README.md)
 * [动力套装](product/engine/README.md)
 * [飞控系统](product/controller/README.md)
@@ -17,12 +18,11 @@
     * [lightning-v1](product/datalink/lightning-v1/README.md)
     * [lightning-v2](product/datalink/lightning-v2/README.md)
 * [挂载设备](product/payload/README.md)
-* [周边硬件](product/peripheral/README.md)
+* [周边模块](product/peripheral/README.md)
 
 ## ==== 飞行手册 ====
 * [Introduction](manual/README.md)
 * [Quick Start](manual/quick-start/README.md)
-    * []
 * [Takeoff Check](manual/takeoff-check/README.md)
     * [Firmware](manual/takeoff-check/fireware.md)
     * [Airframe](manual/takeoff-check/airframe.md)
