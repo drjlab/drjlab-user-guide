@@ -1,24 +1,24 @@
 # 飞行模式
 
-- [manual手动模式](manual.md)
+- [manual手动模式](manual)
 
-- [acro特技模式](acro.md)
+- [acro特技模式](acro)
 
-- [rattitude半增稳模式](rattitude.md)
+- [rattitude半增稳模式](rattitude)
 
-- [stabilized姿态增稳模式](stabilized.md)
+- [stabilized姿态增稳模式](stabilized)
 
-- [altitude定高模式](altitude.md)
+- [altitude定高模式](altitude)
 
-- [position定点模式](position.md)
+- [position定点模式](position)
 
-- [hold保持模式](hold.md)
+- [hold保持模式](hold)
 
-- [mission任务模式](mission.md)
+- [mission任务模式](mission)
 
-- [return返航模式](return.md)
+- [return返航模式](return)
 
-- [follow_me目标跟随模式](follow_me.md)
+- [follow_me目标跟随模式](follow_me)
 
-- [offboard非板载模式](offboard.md)
+- [offboard非板载模式](offboard)
 

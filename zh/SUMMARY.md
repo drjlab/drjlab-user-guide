@@ -24,10 +24,11 @@
 * [Introduction](manual/README.md)
 * [Quick Start](manual/quick-start/README.md)
 * [Takeoff Check](manual/takeoff-check/README.md)
-    * [Firmware](manual/takeoff-check/fireware.md)
+    * [Firmware](manual/takeoff-check/firmware.md)
     * [Airframe](manual/takeoff-check/airframe.md)
     * [Radio](manual/takeoff-check/radio.md)
 * [Flight Modes](manual/flight-modes/README.md)
+* [Safety Setup](manual/safety-setup/README.md)
 * [Parameter Tuning](manual/parameter-tuning/README.md)
 * [Logging Analysis](manual/logging-analysis/README.md)
 
