@@ -26,13 +26,13 @@ offboard 模式需要通过 Mavlink 通信协议来实现。
 
 一个电台连接地面站计算机，一个电台连接飞控的 UART 接口。
 
-![offboard_1](../mode/offboard_1.png)
+![offboard_1](offboard_1.png)
 
 ### 2.机载处理器
 
 载具上搭载的小型计算机通过 UART/USB 适配器来连接到飞控。根据需求不同也可以采用多种不同的方法。
 
-![offboard_2](../mode/offboard_2.png)
+![offboard_2](offboard_2.png)
 
 
 
@@ -40,7 +40,7 @@ offboard 模式需要通过 Mavlink 通信协议来实现。
 
 载具上搭载的小型计算机通过 UART/USB 适配器来连接到飞控。另外，运行 ROS(Robot Operating System) 的地面站通过 wifi 与机载计算机通信。
 
-![offboard_3](../mode/offboard_3.png)
+![offboard_3](offboard_3.png)
 
 
 
