@@ -1,2 +1,2 @@
-# flying
+# DrjLab NextPilot User Manual
 

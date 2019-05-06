@@ -1,7 +1,7 @@
 # DrjLab文档中心
 该仓库包含了 [DrjLab.com](http://www.drjlab.com) 相关产品的[帮助文档](http://help.drjlab.com)。本文档基于[Gitbook](https://gitbook.com)进行维护，网页托管到[Github Pages](http://help.drjlab.com)上。您可以通过：
 
- - 下面链接直接访问 [DrjLab.com](http://help.drjlab.com)官方网站
+ - 下面链接[help.drjlab.com](http://help.drjlab.com)阅读帮助文档
  - 也可以将仓库代码克隆到本地进行编译
 
 ## 关于我们
@@ -16,7 +16,6 @@
 > Lightning将**遥控、数传、图传等三链合一**的无人机通信模块，整套系统由**天空端**和**地面端**组成，其中地面端集成了**遥控器**。Lightning采用先进的无线链路动态适应技术，以空前强大的功能和可靠性树立了无线影像传输的全新标准，无论用于FPV飞行还是电视直播，都能得心应手，让你获得亲临现场的体验。
 
 ## 本地编辑
-
 ```
 # 安装gitbook
 npm install -g gitbook-cli
