@@ -28,7 +28,7 @@
           "label": "Bug tracker",
           "icon": "fa fa-bug",
           "position": "left",
-          "url": "https://github.com/latercomer/nextpilot-hardware/issues/new?title=Doc+Bug:+{{title}}&body=DESCRIBE+PROBLEM+WITH+DOCS+HERE%0A%0ABug+Page:+[{{title}}]({{url}})"
+          "url": "https://github.com/drjlab/drjlab-user-guide/issues/new?title=Doc+Bug:+{{title}}&body=DESCRIBE+PROBLEM+WITH+DOCS+HERE%0A%0ABug+Page:+[{{title}}]({{url}})"
         },
         {
           "label": "Edit page on github",
