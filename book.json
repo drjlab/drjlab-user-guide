@@ -1,27 +1,29 @@
 {
-  "title": "NextPilot User Guide",
+  "gitbook": ">= 3.2.2",
+  "title": "DrjLab User Guide",
   "description": "",
   "language": "zh-hans",
   "plugins": [
     "youtube",
-    "language-picker",
-    "-anchors",
+    "richquotes",
+    "collapsible-menu",
     "back-to-top-button",
     "page-toc-button",
-    "prism",
-    "richquotes",
-    "search-pro",
-    "toolbar",
+    "mermaid",
+    "language-picker",
+    "custom-favicon",    
+    "toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git",
     "mathjax@git+https://github.com/Dronecode/plugin-mathjax.git#update_cdn",
-    "versions-select@git+https://github.com/Dronecode/gitbook-plugin-versions-select.git",
-    "-fontsettings",
-    "-highlight",
-    "-livereload",
-    "-lunr",
-    "-search",
-    "-sharing"
+    "versions-select@git+https://github.com/Dronecode/gitbook-plugin-versions-select.git"
   ],
   "pluginsConfig": {
+    "richquotes": {
+        "tip": {
+            "alert": "success",
+            "picto": "fa-thumbs-o-up"
+        }
+
+    },
     "toolbar": {
       "buttons": [
         {
@@ -34,12 +36,12 @@
           "label": "Edit page on github",
           "icon": "fa fa-pencil-square-o",
           "position": "left",
-          "url": ""
+          "url": "https://github.com/drjlab/drjlab-user-guide"
         },
         {
           "label": "GitHub",
           "icon": "fa fa-github",
-          "url": ""
+          "url": "https://github.com/drjlab/drjlab-user-guide/edit/master/{{filepath_lang}}"
         }
       ]
     }
