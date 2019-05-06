@@ -20,9 +20,9 @@
 # 安装gitbook
 npm install -g gitbook-cli
 # 下载本文档
-git clone https://github.com/drjlab.github.io --recursive
+git clone https://github.com/drjlab/drjlab-user-guide --recursive
 # 编译文档
-cd drjlab.github.io
+cd drjlab-user-guide
 gitbook instll # 安装gitbook插件
 gitbook build  # 或者gitbook serve
 ```
