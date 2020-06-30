@@ -1,0 +1,992 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>lightning-v2 · DrjLab User Guide</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-richquotes/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-versions-select/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../payload/" />
+    
+    
+    <link rel="prev" href="../lightning-v1/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">==== 关于我们 ====</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    团队简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">==== 产品中心 ====</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../aircraft/">
+            
+                <a href="../../aircraft/">
+            
+                    
+                    飞行平台
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../engine/">
+            
+                <a href="../../engine/">
+            
+                    
+                    动力套装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../controller/">
+            
+                <a href="../../controller/">
+            
+                    
+                    飞控系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../controller/nextpilot-v5/">
+            
+                <a href="../../controller/nextpilot-v5/">
+            
+                    
+                    nextpilot-v5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../controller/nextpilot-v5-mini/">
+            
+                <a href="../../controller/nextpilot-v5-mini/">
+            
+                    
+                    nextpilot-v5-mini
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../../controller/nextpilot-v5-pro/">
+            
+                <a href="../../controller/nextpilot-v5-pro/">
+            
+                    
+                    nextpilot-v5-pro
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../navigator/">
+            
+                <a href="../../navigator/">
+            
+                    
+                    全球定位
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../../navigator/nextgps-v1/">
+            
+                <a href="../../navigator/nextgps-v1/">
+            
+                    
+                    GPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../../navigator/nextrtk-v1/">
+            
+                <a href="../../navigator/nextrtk-v1/">
+            
+                    
+                    RTK
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    通讯链路
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../lightning-v1/">
+            
+                <a href="../lightning-v1/">
+            
+                    
+                    lightning-v1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.5.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    lightning-v2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../../payload/">
+            
+                <a href="../../payload/">
+            
+                    
+                    挂载设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../../peripheral/">
+            
+                <a href="../../peripheral/">
+            
+                    
+                    周边模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">==== 飞行手册 ====</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../../manual/">
+            
+                <a href="../../../manual/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../../manual/quick-start/">
+            
+                <a href="../../../manual/quick-start/">
+            
+                    
+                    Quick Start
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../../../manual/takeoff-check/">
+            
+                <a href="../../../manual/takeoff-check/">
+            
+                    
+                    Takeoff Check
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="../../../manual/takeoff-check/firmware.html">
+            
+                <a href="../../../manual/takeoff-check/firmware.html">
+            
+                    
+                    Firmware
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="../../../manual/takeoff-check/airframe.html">
+            
+                <a href="../../../manual/takeoff-check/airframe.html">
+            
+                    
+                    Airframe
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.3" data-path="../../../manual/takeoff-check/radio.html">
+            
+                <a href="../../../manual/takeoff-check/radio.html">
+            
+                    
+                    Radio
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../../../manual/flight-modes/">
+            
+                <a href="../../../manual/flight-modes/">
+            
+                    
+                    Flight Modes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.4.1" data-path="../../../manual/flight-modes/manual.html">
+            
+                <a href="../../../manual/flight-modes/manual.html">
+            
+                    
+                    Manual人工模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.2" data-path="../../../manual/flight-modes/acro.html">
+            
+                <a href="../../../manual/flight-modes/acro.html">
+            
+                    
+                    Acro特技模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.3" data-path="../../../manual/flight-modes/rattitude.html">
+            
+                <a href="../../../manual/flight-modes/rattitude.html">
+            
+                    
+                    Rattitude
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.4" data-path="../../../manual/flight-modes/stabilized_mc.md">
+            
+                <span>
+            
+                    
+                    Stabilized增稳模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.5" data-path="../../../manual/flight-modes/altitude.html">
+            
+                <a href="../../../manual/flight-modes/altitude.html">
+            
+                    
+                    Altitude姿态模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.6" data-path="../../../manual/flight-modes/position.html">
+            
+                <a href="../../../manual/flight-modes/position.html">
+            
+                    
+                    Position定点模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.7" data-path="../../../manual/flight-modes/takeoff.md">
+            
+                <span>
+            
+                    
+                    Takeoff
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.8" data-path="../../../manual/flight-modes/land.md">
+            
+                <span>
+            
+                    
+                    Land
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.9" data-path="../../../manual/flight-modes/return.html">
+            
+                <a href="../../../manual/flight-modes/return.html">
+            
+                    
+                    Return
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.10" data-path="../../../manual/flight-modes/hold.html">
+            
+                <a href="../../../manual/flight-modes/hold.html">
+            
+                    
+                    Hold
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.11" data-path="../../../manual/flight-modes/mission.html">
+            
+                <a href="../../../manual/flight-modes/mission.html">
+            
+                    
+                    Mission
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.12" data-path="../../../manual/flight-modes/follow_me.html">
+            
+                <a href="../../../manual/flight-modes/follow_me.html">
+            
+                    
+                    Follow Me
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.13" data-path="../../../manual/flight-modes/offboard.html">
+            
+                <a href="../../../manual/flight-modes/offboard.html">
+            
+                    
+                    Offboard
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../../../manual/safety-setup/">
+            
+                <a href="../../../manual/safety-setup/">
+            
+                    
+                    Safety Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../../../manual/parameter-tuning/">
+            
+                <a href="../../../manual/parameter-tuning/">
+            
+                    
+                    Parameter Tuning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../../../manual/logging-analysis/">
+            
+                <a href="../../../manual/logging-analysis/">
+            
+                    
+                    Logging Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">==== 开发指南 ====</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../../develp/onboard-sdk/">
+            
+                <a href="../../../develp/onboard-sdk/">
+            
+                    
+                    Onboard SDK
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../../develp/mobile-sdk/">
+            
+                <a href="../../../develp/mobile-sdk/">
+            
+                    
+                    Mobile SDK
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../../../develp/payload-sdk/">
+            
+                <a href="../../../develp/payload-sdk/">
+            
+                    
+                    Payload SDK
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">==== 快捷方式 ====</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" >
+            
+                <a target="_blank" href="https://docs.px4.io/en/">
+            
+                    
+                    PX4 User Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" >
+            
+                <a target="_blank" href="https://dev.px4.io/en/">
+            
+                    
+                    PX4 User Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" >
+            
+                <a target="_blank" href="https://docs.qgroundcontrol.com/en/">
+            
+                    
+                    QGroundControl User Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" >
+            
+                <a target="_blank" href="https://dev.qgroundcontrol.com/en/">
+            
+                    
+                    QGroundControl Developer Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" >
+            
+                <a target="_blank" href="https://docs.dronecore.io/en/">
+            
+                    
+                    DroneCore Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" >
+            
+                <a target="_blank" href="https://mavlink.io/en/">
+            
+                    
+                    MAVLink Developer Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >lightning-v2</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="drjlab-lightning">DrjLab Lightning</h1>
+<p>DrjLab Lightning&#x662F;<strong>&#x6570;&#x56FE;&#x4F20;&#x4E00;&#x4F53;</strong>&#x7684;&#x65E0;&#x4EBA;&#x673A;&#x901A;&#x8BAF;&#x6A21;&#x5757;&#xFF0C;&#x7531;<strong>&#x5929;&#x7A7A;&#x7AEF;</strong>&#x548C;<strong>&#x5730;&#x9762;&#x7AEF;</strong>&#x7EC4;&#x6210;&#xFF0C;&#x5176;&#x4E2D;&#x5730;&#x9762;&#x7AEF;&#x96C6;&#x6210;&#x4E86;<strong>&#x9065;&#x63A7;&#x5668;</strong>&#x3002;&#x91C7;&#x7528;&#x5148;&#x8FDB;&#x7684;&#x65E0;&#x7EBF;&#x94FE;&#x8DEF;&#x52A8;&#x6001;&#x9002;&#x5E94;&#x6280;&#x672F;&#xFF0C;&#x4EE5;&#x7A7A;&#x524D;&#x5F3A;&#x5927;&#x7684;&#x529F;&#x80FD;&#x548C;&#x53EF;&#x9760;&#x6027;&#x6811;&#x7ACB;&#x4E86;&#x65E0;&#x7EBF;&#x5F71;&#x50CF;&#x4F20;&#x8F93;&#x7684;&#x5168;&#x65B0;&#x6807;&#x51C6;&#xFF0C;&#x65E0;&#x8BBA;&#x7528;&#x4E8E;FPV&#x98DE;&#x884C;&#x8FD8;&#x662F;&#x7535;&#x89C6;&#x76F4;&#x64AD;&#xFF0C;&#x90FD;&#x80FD;&#x5F97;&#x5FC3;&#x5E94;&#x624B;&#xFF0C;&#x8BA9;&#x4F60;&#x83B7;&#x5F97;&#x4EB2;&#x4E34;&#x73B0;&#x573A;&#x7684;&#x4F53;&#x9A8C;&#x3002;</p>
+<h2 id="&#x4E3B;&#x8981;&#x7279;&#x8272;">&#x4E3B;&#x8981;&#x7279;&#x8272;</h2>
+<ul>
+<li><p>&#x96C6;&#x6210;&#x4E13;&#x4E1A;&#x9065;&#x63A7;&#x5668;&#x3002;&#x544A;&#x522B;&#x7EBF;&#x7F06;&#x7F20;&#x7ED5;&#x548C;&#x643A;&#x5E26;&#x591A;&#x53F0;&#x8BBE;&#x5907;&#x4E0D;&#x4FBF;&#xFF0C;&#x53EA;&#x9700;&#x8FDE;&#x63A5;&#x663E;&#x793A;&#x8BBE;&#x5907;(&#x5E73;&#x677F;&#x6216;&#x8005;&#x624B;&#x673A;)&#x80FD;&#x5F00;&#x59CB;&#x4F7F;&#x7528;&#xFF0C;&#x98DE;&#x884C;&#x524D;&#x51C6;&#x5907;&#x66F4;&#x52A0;&#x4FBF;&#x6377;&#xFF0C;&#x4FE1;&#x53F7;&#x4F20;&#x8F93;&#x66F4;&#x52A0;&#x5B89;&#x5168;&#x3001;&#x6D41;&#x7545;&#x3002;</p>
+</li>
+<li><p>&#x53CC;&#x8DEF;&#x89C6;&#x9891;&#x8F93;&#x51FA;&#x3002;&#x53EF;&#x540C;&#x65F6;&#x63A5;&#x5165;FPV&#x548C;&#x4E91;&#x53F0;&#x89C6;&#x9891;&#x6E90;&#xFF0C;&#x98DE;&#x624B;&#x548C;&#x4E91;&#x53F0;&#x624B;&#x53EF;&#x4EE5;&#x5404;&#x81EA;&#x4EAB;&#x6709;&#x4E00;&#x8DEF;&#x89C6;&#x9891;&#xFF0C;&#x4E91;&#x53F0;&#x624B;&#x8C03;&#x8282;&#x62CD;&#x6444;&#x89D2;&#x5EA6;&#x548C;&#x8BBE;&#x7F6E;&#x76F8;&#x673A;&#x65F6;&#x4E0D;&#x4F1A;&#x5E72;&#x6270;&#x98DE;&#x624B;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x5B9E;&#x73B0;&#x6D41;&#x7545;&#x7684;&#x822A;&#x62CD;&#x6548;&#x679C;&#x3002;&#x5F53;&#x7136;&#x4E24;&#x8DEF;&#x89C6;&#x9891;&#x53EF;&#x5728;&#x540C;&#x4E00;&#x5C4F;&#x5E55;&#x4E0A;&#x663E;&#x793A;&#xFF0C;&#x64CD;&#x4F5C;&#x98DE;&#x884C;&#x5668;&#x65F6;&#x53EF;&#x638C;&#x63E1;&#x66F4;&#x4E30;&#x5BCC;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x5355;&#x4EBA;&#x822A;&#x62CD;&#x66F4;&#x52A0;&#x8F7B;&#x677E;&#x4FBF;&#x5229;&#x3002;</p>
+</li>
+</ul>
+<ul>
+<li><p>&#x9065;&#x63A7;&#x5668;&#x8BBE;&#x6709;&#x4E91;&#x53F0;&#x4FEF;&#x4EF0;&#x62E8;&#x8F6E;&#x3001;&#x62CD;&#x7167;&#x548C;&#x89C6;&#x9891;&#x5F55;&#x5236;&#x6309;&#x94AE;&#xFF0C;&#x8FD4;&#x822A;&#x952E;&#x548C;&#x81EA;&#x5B9A;&#x4E49;&#x6309;&#x952E;*&#xFF0C;&#x4E3A;&#x4F60;&#x63D0;&#x4F9B;&#x4E13;&#x4E1A;&#x822A;&#x62CD;&#x6240;&#x9700;&#x7684;&#x63A7;&#x5236;&#x529F;&#x80FD;&#x3002;&#x5185;&#x7F6E;6000mAh&#x53EF;&#x5145;&#x7535;&#x7535;&#x6C60;&#xFF0C;&#x8DB3;&#x591F;&#x5B8C;&#x6210;&#x591A;&#x6B21;&#x822A;&#x62CD;&#x4EFB;&#x52A1;&#xFF0C;LED&#x6307;&#x793A;&#x706F;&#x53EF;&#x5B9E;&#x65F6;&#x663E;&#x793A;&#x7535;&#x91CF;&#x3002;&#x914D;&#x5907;USB&#x3001;mini-HDMI&#x548C;3G-SDI&#x63A5;&#x53E3;&#xFF0C;&#x652F;&#x6301;&#x4E24;&#x8DEF;&#x89C6;&#x9891;&#x540C;&#x65F6;&#x8F93;&#x51FA;&#xFF0C;&#x53D6;&#x666F;&#x548C;&#x76F4;&#x64AD;&#x540C;&#x65F6;&#x8FDB;&#x884C;&#xFF0C;&#x5728;&#x590D;&#x6742;&#x7684;&#x4E13;&#x4E1A;&#x822A;&#x62CD;&#x4EFB;&#x52A1;&#x9762;&#x524D;&#xFF0C;Lightbridge 2&#x4E5F;&#x80FD;&#x6E38;&#x5203;&#x6709;&#x4F59;&#x3002;</p>
+</li>
+<li><p>&#x5E7F;&#x64AD;&#x7EA7;&#x89C6;&#x9891;&#x8F93;&#x51FA;&#x3002;Lightning&#x652F;&#x6301;&#x4E30;&#x5BCC;&#x7684;&#x63A5;&#x53E3;&#x8F93;&#x51FA;&#xFF0C;&#x914D;&#x5907;USB&#x3001;mini-HDMI&#x548C;3G-SDI&#x63A5;&#x53E3;&#xFF0C;&#x6700;&#x9AD8;&#x652F;&#x6301;&#x5168;&#x9AD8;&#x6E05;1080p/60fps&#x8F93;&#x51FA;&#x3002;3G-SDI&#x63A5;&#x53E3;&#x7A33;&#x5B9A;&#x8F93;&#x51FA;&#x5E7F;&#x64AD;&#x884C;&#x4E1A;&#x5E38;&#x7528;&#x7684;720p/59.94fps&#x3001;1080i/50fps&#x5206;&#x8FA8;&#x7387;&#x548C;&#x5E27;&#x7387;&#xFF0C;&#x89E3;&#x51B3;&#x4E86;&#x5176;&#x5B83;&#x63A5;&#x53E3;&#x5E27;&#x7387;&#x4E0D;&#x7A33;&#x5B9A;&#x9020;&#x6210;&#x65E0;&#x6CD5;&#x4F20;&#x8F93;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x80FD;&#x9002;&#x914D;&#x4E13;&#x4E1A;&#x7EA7;&#x76F4;&#x64AD;&#x8BBE;&#x5907;&#x3002;</p>
+</li>
+<li><p>&#x9AD8;&#x6027;&#x80FD;&#x4F4E;&#x5EF6;&#x65F6;&#x3002;&#x91C7;&#x7528;&#x65B0;&#x4E00;&#x4EE3;&#x7F16;&#x7801;&#x7B97;&#x6CD5;&#xFF0C;Lightbridge 2&#x5EF6;&#x65F6;&#x8FDB;&#x4E00;&#x6B65;&#x964D;&#x4F4E;&#x81F3;50ms*&#x3002;&#x6839;&#x636E;&#x56FE;&#x4F20;&#x753B;&#x9762;&#x64CD;&#x63A7;&#x98DE;&#x884C;&#x5668;&#x548C;&#x4E91;&#x53F0;&#x65F6;&#xFF0C;&#x7CBE;&#x51C6;&#x6027;&#x663E;&#x8457;&#x63D0;&#x5347;&#xFF0C;&#x822A;&#x62CD;&#x53D6;&#x666F;&#x4E00;&#x6B65;&#x5230;&#x4F4D;&#x3002;Lightbridge 2&#x914D;&#x5408;&#x4F4E;&#x5EF6;&#x65F6;&#x6444;&#x50CF;&#x8BBE;&#x5907;&#x4F7F;&#x7528;&#xFF0C;&#x80FD;&#x5E26;&#x6765;&#x7545;&#x5FEB;&#x7684;FPV&#x98DE;&#x884C;&#x4F53;&#x9A8C;&#x3002;</p>
+</li>
+<li><p>&#x8D85;&#x8D8A;&#x8DDD;&#x79BB;&#x3002;&#x4FE1;&#x53F7;&#x4F20;&#x8F93;&#x8DDD;&#x79BB;&#x8FDC;&#x8FBE;5&#x516C;&#x91CC;*&#xFF0C;&#x8BA9;&#x4F60;&#x5728;&#x822A;&#x62CD;&#x4E2D;&#x65E0;&#x9700;&#x62C5;&#x5FE7;&#x98DE;&#x884C;&#x8DDD;&#x79BB;&#xFF0C;&#x63A2;&#x7D22;&#x66F4;&#x5E7F;&#x9614;&#x7684;&#x7A7A;&#x95F4;&#x3002;</p>
+</li>
+<li><p>&#x524D;&#x6240;&#x672A;&#x6709;&#x7684;&#x53EF;&#x9760;&#x6027;&#x3002;Lightbridge 2&#x91C7;&#x7528;&#x65E0;&#x7EBF;&#x94FE;&#x8DEF;&#x52A8;&#x6001;&#x9002;&#x5E94;&#x6280;&#x672F;&#xFF0C;&#x5E73;&#x8861;&#x4E86;&#x8DDD;&#x79BB;&#x3001;&#x7535;&#x78C1;&#x73AF;&#x5883;&#x548C;&#x753B;&#x8D28;&#x7684;&#x51B2;&#x7A81;&#x3002; Lightbridge 2&#x80FD;&#x81EA;&#x52A8;&#x9009;&#x62E9;&#x6700;&#x4F73;&#x4FE1;&#x9053;&#xFF0C;&#x5E76;&#x5728;&#x6709;&#x9700;&#x8981;&#x65F6;&#x5207;&#x6362;&#x4FE1;&#x9053;&#x548C;&#x8C03;&#x6574;&#x89C6;&#x9891;&#x5E26;&#x5BBD;&#xFF0C;&#x4FDD;&#x969C;&#x89C6;&#x9891;&#x7684;&#x6D41;&#x7545;&#x6027;&#xFF0C; &#x6709;&#x6548;&#x964D;&#x4F4E;&#x753B;&#x9762;&#x7F3A;&#x635F;&#x548C;&#x4E2D;&#x65AD;&#x73B0;&#x8C61;&#x3002;&#x7ED3;&#x5408;&#x9AD8;&#x901F;&#x5904;&#x7406;&#x5668;&#x548C;&#x5148;&#x8FDB;&#x7684;&#x7B97;&#x6CD5;&#xFF0C;Lightbridge 2&#x8BA9;&#x89C6;&#x9891;&#x65E0;&#x7EBF;&#x4F20;&#x8F93;&#x66F4;&#x52A0;&#x53EF;&#x9760;&#x3002;</p>
+</li>
+</ul>
+<h2 id="&#x6280;&#x672F;&#x53C2;&#x6570;">&#x6280;&#x672F;&#x53C2;&#x6570;</h2>
+<h3 id="&#x6574;&#x4F53;&#x6027;&#x80FD;">&#x6574;&#x4F53;&#x6027;&#x80FD;</h3>
+<ul>
+<li>&#x6700;&#x8FDC;&#x901A;&#x4FE1;&#x8DDD;&#x79BB;&#xFF1A;5000&#x7C73;&#xFF08;&#x65E0;&#x906E;&#x6321;&#xFF09;</li>
+<li>&#x5168;&#x5411;&#x8F90;&#x5C04;&#x529F;&#x7387;&#xFF1A;100mW @ 2.4GHz</li>
+<li>&#x5DE5;&#x4F5C;&#x9891;&#x6BB5;&#xFF1A;2.400 GHz ~ 2.483 GHz&#xFF0C;5.725 GHz ~ 5.825 GHz</li>
+</ul>
+<h3 id="&#x5730;&#x9762;&#x7AEF;">&#x5730;&#x9762;&#x7AEF;</h3>
+<ul>
+<li>&#x91CD;&#x91CF;&#x5C3A;&#x5BF8;&#xFF1A;810g&#xFF0C;182mm x 167mm x 104mm</li>
+<li>&#x5185;&#x7F6E;&#x7535;&#x6C60;&#xFF1A;3s&#xFF0C;6000mAh&#xFF0C;&#x8FDE;&#x7EED;&#x5DE5;&#x4F5C;7&#x5C0F;&#x65F6;</li>
+<li>&#x5DE5;&#x4F5C;&#x7535;&#x7535;&#x6D41;&#xFF1A;900mA</li>
+<li>&#x89C6;&#x9891;&#x8F93;&#x51FA;&#x63A5;&#x53E3;&#xFF1A;HDMI&#xFF0C;SDI&#xFF0C;USB</li>
+<li>&#x5145;&#x7535;&#x5668;&#xFF1A;17.4V&#xFF0C;57W</li>
+</ul>
+<h3 id="&#x5929;&#x7A7A;&#x7AEF;">&#x5929;&#x7A7A;&#x7AEF;</h3>
+<ul>
+<li>&#x91CD;&#x91CF;&#x5C3A;&#x5BF8;&#xFF1A;70g&#xFF0C;68mm x 48mm x 21mm </li>
+<li>&#x5929;&#x7EBF;&#x589E;&#x76CA;&#xFF1A;</li>
+<li>&#x5DE5;&#x4F5C;&#x7535;&#x6E90;&#xFF1A;650mA@12V</li>
+<li>&#x5929;&#x7EBF;&#x63A5;&#x5934;&#xFF1A;MMCX</li>
+<li>&#x89C6;&#x9891;&#x8F93;&#x5165;&#x63A5;&#x53E3;&#xFF1A;HDMI(720p50, 720p60, 1080i50, 1080i60, 1080p25, 1080p30, 1080p50, 1080p60)&#xFF0C;AV(PAL25, NTSC30)</li>
+</ul>
+<h2 id="&#x5E38;&#x89C1;&#x95EE;&#x9898;">&#x5E38;&#x89C1;&#x95EE;&#x9898;</h2>
+<ol>
+<li><p>&#x6211;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5176;&#x4ED6;&#x5E73;&#x53F0;&#x9065;&#x63A7;&#x5668;&#x8FDE;&#x63A5;DrjLab Lightning&#x5929;&#x7A7A;&#x7AEF;&#x5417;&#xFF1F;
+&#x4E0D;&#x53EF;&#x4EE5;&#xFF0C;DrjLab Lightning&#x5730;&#x9762;&#x7AEF;&#x5DF2;&#x7ECF;&#x96C6;&#x6210;&#x4E86;&#x9065;&#x63A7;&#x5668;&#x529F;&#x80FD;&#xFF0C;&#x65E0;&#x9700;&#x8D2D;&#x4E70;&#x9065;&#x63A7;&#x8BBE;&#x5907;&#x3002;</p>
+</li>
+<li><p>&#x5730;&#x9762;&#x7AEF;&#x7EED;&#x822A;&#x65F6;&#x95F4;&#x591A;&#x4E45;&#xFF1F;
+&#x5730;&#x9762;&#x7AEF;&#x5185;&#x7F6E;&#x4E86;3S 6000mAh&#x7684;&#x7535;&#x6C60;&#xFF0C;&#x6B63;&#x5E38;&#x5DE5;&#x4F5C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;7&#x5C0F;&#x65F6;&#x3002;</p>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../lightning-v1/" class="navigation navigation-prev " aria-label="Previous page: lightning-v1">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../payload/" class="navigation navigation-next " aria-label="Next page: 挂载设备">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"lightning-v2","level":"2.5.2","depth":2,"next":{"title":"挂载设备","level":"2.6","depth":1,"path":"product/payload/README.md","ref":"product/payload/README.md","articles":[]},"previous":{"title":"lightning-v1","level":"2.5.1","depth":2,"path":"product/datalink/lightning-v1/README.md","ref":"product/datalink/lightning-v1/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["youtube","richquotes","collapsible-menu","back-to-top-button","page-toc-button","mermaid","language-picker","custom-favicon","toolbar@git+https://github.com/hamishwillee/gitbook-plugin-toolbar.git","mathjax@git+https://github.com/Dronecode/plugin-mathjax.git#update_cdn","versions-select@git+https://github.com/Dronecode/gitbook-plugin-versions-select.git"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"language-picker":{"grid-columns":3},"youtube":{},"search":{},"mermaid":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"versions-select":{"type":"branches"},"fontsettings":{"theme":"white","family":"sans","size":2},"richquotes":{"tip":{"alert":"success","picto":"fa-thumbs-o-up"}},"highlight":{},"page-toc-button":{},"back-to-top-button":{},"custom-favicon":{},"mathjax":{"forceSVG":false,"version":"2.7.6"},"toolbar":{"buttons":[{"label":"Bug tracker","icon":"fa fa-bug","position":"left","url":"https://github.com/drjlab/drjlab-user-guide/issues/new?title=Doc+Bug:+{{title}}&body=DESCRIBE+PROBLEM+WITH+DOCS+HERE%0A%0ABug+Page:+[{{title}}]({{url}})"},{"label":"Edit page on github","icon":"fa fa-pencil-square-o","position":"left","url":"https://github.com/drjlab/drjlab-user-guide"},{"label":"GitHub","icon":"fa fa-github","url":"https://github.com/drjlab/drjlab-user-guide/edit/master/{{filepath_lang}}"}]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"DrjLab User Guide","language":"zh","gitbook":"*","description":""},"file":{"path":"product/datalink/lightning-v2/README.md","mtime":"2020-06-30T13:57:25.747Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-30T13:58:40.174Z"},"basePath":"../../..","book":{"language":"zh"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-toolbar/buttons.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-mathjax/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-versions-select/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
